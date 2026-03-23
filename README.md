@@ -1,3 +1,20 @@
+# RoadWatch
+
+> AI pothole detection system — Pi 5 + Hailo-8
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — 18 orgs, 20 domains, 200 agents.
+
+Forked from [`lukekratz/raspberry-pi-5-hailo-8-pothole-detection-system`](https://github.com/lukekratz/raspberry-pi-5-hailo-8-pothole-detection-system) and enhanced for the BlackRoad sovereign stack.
+
+| | |
+|---|---|
+| **Language** | Multiple |
+| **Organization** | [BlackRoad-Forge](https://github.com/BlackRoad-Forge) |
+| **License** | See upstream |
+| **Homepage** | [blackroad.io](https://blackroad.io) |
+
+---
+
 # raspberry-pi-5-hailo-8-pothole-detection-system
 This is the official repository for the automatic pothole detection, classification and sizing system
 
@@ -26,4 +43,3 @@ cd pothole-detection-system
 
 Run the detection pipeline with this command:
 python3 pothole_detection.py --input rpi --hef-path ~/path-to-hef-file/Pothole-YOLOv8.hef
-
